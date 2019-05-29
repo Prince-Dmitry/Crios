@@ -1,0 +1,359 @@
+body {
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "Montserrat", Arial, sans-serif;
+  color: #000;
+  font-style: normal;
+  font-weight: normal;
+  background-color: #ffffff;
+  margin-right: -1px;
+  margin-left: -1px;
+  -webkit-box-sizing: padding-box;
+          box-sizing: padding-box;
+  overflow-x: hidden;
+  position: relative;
+  max-width: 2000px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.container {
+  margin: 0 auto;
+  -webkit-box-sizing: padding-box;
+          box-sizing: padding-box;
+  max-width: 1470px;
+}
+p {
+  font-family: "Montserrat";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 32px;
+}
+p {
+  font-family: "Montserrat";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 34px;
+}
+header .page-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 600px;
+  height: 80px;
+  margin-top: 60px;
+  margin-bottom: 235px;
+}
+header .page-header .header__navigation {
+  display: inline-block;
+  width: 18px;
+  height: 16px;
+}
+header .page-header .header__search {
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+}
+header .page-header .header__annotation {
+  display: inline-block;
+  width: 300px;
+}
+header .page-header .header__annotation .header__annotation-title {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 48px;
+  color: #43a9ff;
+  text-transform: uppercase;
+  text-align: center;
+}
+header .page-header .header__annotation .header__annotation-description {
+  margin: 0;
+  color: #4b5863;
+  font-size: 18px;
+  text-align: center;
+  opacity: 0.35;
+}
+.title {
+  width: 100%;
+}
+.title .title__slogan {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 35px;
+  text-align: center;
+  font-size: 48px;
+}
+.title .title__text {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18px;
+  line-height: 18px;
+  color: #4b5863;
+  opacity: 0.25;
+}
+.title .title-picture {
+  width: 100%;
+  min-height: 1075px;
+  background: url('../image/crios-header.jpg') no-repeat;
+  background-size: contain;
+}
+.title .title-picture .title-picture__text {
+  display: block;
+  margin: 0 auto;
+  padding-top: 100px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: #43a9ff;
+}
+.our-offer .our-offer__pre-title {
+  margin: 0;
+  margin-bottom: 20px;
+  color: #4b5863;
+  font-size: 18px;
+  text-align: center;
+  opacity: 0.35;
+}
+.our-offer .our-offer__title {
+  display: block;
+  margin: 0;
+  margin-bottom: 110px;
+  font-size: 48px;
+  color: #000;
+  text-align: center;
+}
+.our-offer .our-offer__pins {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style-type: none;
+}
+.our-offer .our-offer__pins .our-offer__pin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.our-offer .our-offer__pins .our-offer__pin .pin__title {
+  margin: 35px 0;
+}
+.our-offer .our-offer__pins .our-offer__pin .pin__description {
+  margin: 0;
+  font-size: 14px;
+  line-height: 24px;
+  color: #4b5863;
+  text-align: center;
+  opacity: 0.35;
+}
+.our-offer .our-offer__link {
+  display: block;
+  margin: 0 auto;
+  margin-top: 110px;
+  margin-bottom: 145px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: #43a9ff;
+  text-decoration: none;
+}
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.cards .card {
+  width: 50%;
+  min-height: 562px;
+}
+.cards .cards__winter-background {
+  background: url('../image/winter-forest.jpg');
+}
+.cards .cards__deforestation-background {
+  background: url('../image/deforestation.jpg');
+}
+.cards .cards__winter-card,
+.cards .cards__deforestation-card {
+  padding: 0 120px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.cards .cards__winter-card h3,
+.cards .cards__deforestation-card h3 {
+  margin: 0;
+  margin-top: 195px;
+  margin-bottom: 55px;
+  font-size: 48px;
+  font-weight: normal;
+}
+.cards .cards__winter-card p,
+.cards .cards__deforestation-card p {
+  font-size: 16px;
+  line-height: 36px;
+  color: #4b5863;
+  opacity: 0.35;
+}
+.social {
+  max-width: 1080px;
+  margin: 0 auto;
+  margin-bottom: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.social .social__first-image {
+  width: 449px;
+  height: 677px;
+  background: url('../image/app-screen.jpg');
+}
+.social .social__second-image {
+  width: 449px;
+  height: 677px;
+  background: url("../image/app-screen--second.jpg");
+}
+.social .social__first-card,
+.social .social__second-card {
+  max-width: 510px;
+}
+.social .social__first-card h2,
+.social .social__second-card h2 {
+  margin-top: 190px;
+  font-size: 48px;
+  font-weight: normal;
+  color: #43a9ff;
+}
+.social .social__first-card p,
+.social .social__second-card p {
+  font-size: 16px;
+  line-height: 36px;
+  color: #4b5863;
+  opacity: 0.35;
+}
+.author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 135px;
+}
+.author .author__background {
+  width: 495px;
+  height: 570px;
+  background: url('../image/crios--guy.jpg');
+}
+.author .author__card {
+  max-width: 550px;
+}
+.author .author__card .author__card-title {
+  margin: 0;
+  margin-top: 150px;
+  margin-bottom: 60px;
+  color: #fe3254;
+  font-size: 48px;
+}
+.author .author__card .author__card-description {
+  margin: 0;
+  margin-bottom: 80px;
+  color: #4b5863;
+  font-size: 16px;
+  line-height: 36px;
+  opacity: 0.35;
+}
+.author .author__card .author__name {
+  margin: 0;
+  margin-bottom: 12px;
+  font-size: 16px;
+  color: #000;
+}
+.author .author__card .author__profession {
+  margin: 0;
+  color: #4b5863;
+  font-size: 16px;
+  line-height: 36px;
+  opacity: 0.35;
+}
+.page-footer .footer__pretitle {
+  margin: 0;
+  margin-bottom: 30px;
+  color: #4b5863;
+  font-size: 16px;
+  line-height: 36px;
+  text-align: center;
+  opacity: 0.35;
+}
+.page-footer .footer__title {
+  margin-bottom: 120px;
+  font-size: 48px;
+  color: #000000;
+  text-align: center;
+}
+.page-footer .footer__push-buttton {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+  line-height: 18px;
+  color: #43a9ff;
+}
+.page-footer .footer__background {
+  width: 100%;
+  height: auto;
+  min-height: 800px;
+  background: url('../image/crios-footer.jpg') no-repeat;
+  background-size: cover;
+}
+/*# sourceMappingURL=styles.css.map */
